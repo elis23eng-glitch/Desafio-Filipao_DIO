@@ -8,7 +8,7 @@ Este projeto resolve o desafio de lógica proposto pela plataforma DIO: classifi
 
 Crie uma variável para armazenar o nome e outra para armazenar a quantidade de XP de um herói. Em seguida, use uma estrutura de decisão para determinar o nível do personagem.
 
-## Regras de classificação
+## Regras de Classificação
 
 - Menor do que 1.000 XP: Ferro
 - Entre 1.001 e 2.000 XP: Bronze
@@ -19,7 +19,7 @@ Crie uma variável para armazenar o nome e outra para armazenar a quantidade de 
 - Entre 9.001 e 10.000 XP: Imortal
 - Acima de 10.000 XP: Radiante
 
-## Exemplo de solução
+## Exemplo de Solução
 
 ```javascript
 let nomeHeroi = "Arthur";
@@ -47,7 +47,7 @@ if (xpHeroi <= 1000) {
 console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`);
 ```
 
-## Saída esperada
+## Saída Esperada
 
 Ao final, a mensagem exibida será:
 
@@ -55,12 +55,12 @@ Ao final, a mensagem exibida será:
 O Herói de nome Arthur está no nível de Platina
 ```
 
-## Tecnologias utilizadas
+## Tecnologias Utilizadas
 
 - JavaScript
 - Node.js
 
-## Como executar
+## Como Executar
 
 No terminal, dentro da pasta do projeto, execute:
 
